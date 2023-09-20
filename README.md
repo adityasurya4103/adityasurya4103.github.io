@@ -1,2 +1,1 @@
-# adityasurya.github.io
-CESA WEBSITE
+# CESA_WEBSITE_-college-committee-website-

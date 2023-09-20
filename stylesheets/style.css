@@ -195,7 +195,7 @@ section {
   width: 30vw;
   height: 30vw;
   /* transition: transform 1s ease-in-out; Apply a smooth transition effect */
-  animation: coinFlip 0.5s ease-in-out 1.2s forwards, glow 2s ease-in-out infinite alternate; /* Apply the coin flip animation on hover */
+  animation: coinFlip 0.5s ease-in-out 1.2s forwards, glow 1.2s ease-in-out infinite alternate; /* Apply the coin flip animation on hover */
 }
 /* 
 .logo-image:hover {
@@ -304,6 +304,10 @@ section {
     text-align: center;
     border: .2rem solid var(--sec-bg-color);
     transition: .5s ease;
+}
+
+.event-box{
+  height: 400px;
 }
 
 .event-container .event-box:hover{
@@ -446,7 +450,7 @@ section {
 }
 
 .st-quote, .end-quote{
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .st-quote{
@@ -478,7 +482,7 @@ section {
   justify-content: center;
   row-gap: 1rem;
   color: var(--main-color);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: oblique;
   align-items:center;
   border: 2px solid var(--main-color); 
@@ -489,8 +493,8 @@ section {
 }
 
 .back img{
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 1rem;
 }
@@ -614,7 +618,11 @@ span{
   .team-content{
     flex-direction: column;
   }
-
+  .team-content h3{
+    margin-top: -11rem;
+    /* margin: 1rem 0; */
+    font-size: 2.6rem;
+  }
   .team-img img{
     width: 90vw;
   }
@@ -684,6 +692,12 @@ span{
   }
 
 
+}
+
+@media(max-width: 565px){
+  .footer{
+    justify-content: start;
+  }
 }
 
 @media(max-width: 450px){

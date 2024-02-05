@@ -1,350 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN" dir="ltr">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitation to Date</title>
+  <meta charset="utf-8">
+  <meta name="author" content="NewAuthor"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Invitation to Date - A website to invite your lover for a date by Collegeek online learning platform."/>
+  <meta name="keywords" content="Invitation to Date, Date Invitation, Collegeek, Collegeek.com, learning programming, programming tutorial, tools, Live_DHTML, Converter, microprocessor"/>
+  <link rel="stylesheet" href="./style.css">
+  <!-- icons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="image/icons/favicon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="image/icons/favicon-60x60.png">
+  <!-- Add other icon sizes as needed -->
+  <link rel="icon" type="image/png" sizes="192x192" href="image/icons/favicon-192x192.png">
+  <link rel="shortcut icon" type="image/x-icon" href="image/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="image/icons/favicon-144x144.png">
+  <meta name="msapplication-config" content="image/icons/browserconfig.xml">
+  <link rel="manifest" href="image/icons/manifest.json">
+  <!-- icons -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3EWCZHDCG9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  <!-- Icons  -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    function analyticsTag() {
+      dataLayer.push(arguments);
+    }
 
-  <!-- Favicon  -->
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
-  <!-- Stylesheet Link  -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="stylesheets/style.css" />
-
-  <title>CESA</title>
+    analyticsTag('js', new Date());
+    analyticsTag('config', 'G-3EWCZHDCG9');
+  </script>
 </head>
 
 <body>
-
-  <!-- Logo and Navbar  -->
-  <header class="header">
-    <a href="#" class="logo">CESA</a>
-    <!-- <button onclick="Toggle()" id="menu-btn">O</button> -->
-    <i class='bx bx-menu' onclick="Toggle()" id="menu-icon"></i>
-    <nav class="navbar" id="nav">
-      <a href="index.html">Home</a>
-      <div class="dropdown">
-        <a href="#events" class="nav-btn">Event</a>
-        <div class="dropdown-content">
-          <a href="culevent.html"><i class='bx bxs-music'></i>Cultural</a>
-              <a href="techevent.html"><i class='bx bx-code-alt'></i>Technical</a>
-              <a href="sportevent.html"><i class='bx bx-trophy'></i>Sports</a>
-        </div>
-      </div>
-      <a href="Team.html">Team</a>
-      <a href="#footer">Contact</a>
-    </nav>
-  </header>
-
-
-  <!-- Main Section  -->
-  <section class="home" id="home">
-    <div class="home-content" data-aos="fade-right">
-      <h3>AISSMS IOIT</h3>
-      <h1 class="text" data-fill-text="CESA 2K23">CESA <span style="color: #c7c6c7;">2K23</span></h1>
-      <h3>Computer Engineering Student Association</h3>
-
-      <!-- Social Media  -->
-      <div class="social-media">
-<!--         <a href="#"><i class='bx bxl-facebook'></i></a> -->
-        <a href="https://instagram.com/ioitcesa?igshid=MzRlODBiNWFlZA==
-          " target="_blank"><i class='bx bxl-instagram'></i></a>
-        <a href="https://www.linkedin.com/in/cesa-ioit/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-        <a href="https://discord.gg/upkjS4Xq
-          " target="_blank"><i class='bx bxl-discord-alt'></i></a>
-        <a href="https://youtube.com/@ioitcesa2954?si=slFAfkUp5796LXX3" target="_blank"><i class='bx bxl-youtube'></i></a>
-      </div>
+  <div id="dateInvitation" class="container">
+    <div>
+      <h1 class="title_text">Do you wanna go out with me?</h1>
     </div>
-
-    <!-- logo  -->
-    <div class="home-img" data-aos="fade-left">
-      <img src="images/main-logo-new.png" alt="logo" class="logo-image" />
+    <div class="gif_container">
+      <img src="image/ask.gif" alt="Cute animated illustration">
     </div>
-  </section>
-
-  <!-- Event Section  -->
-  <section class="events" id="events">
-    <h2 class="heading" data-aos="fade-up">Events</h2>
-
-    <div class="event-container" data-aos="fade-up" data-aos-delay="100">
-      <div class="event-box">
-        <i class='bx bxs-music'></i>
-        <h3>Cultural</h3>
-        <p>We're a diverse group celebrating global heritage through art, tradition, and storytelling. Join us in embracing the richness of cultures worldwide.</p>
-        <a href="culevent.html" class="btn">Know More</a>
-      </div>
-      <div class="event-box">
-        <i class='bx bx-code-alt'></i>
-        <h3>Technical</h3>
-        <p>Driving innovation and progress, our dynamic Technical Team pushes technology's boundaries, turning ideas into real-world solutions for positive digital change.</p>
-        <a href="techevent.html" class="btn">Know More</a>
-      </div>
-      <div class="event-box">
-        <i class='bx bx-trophy'></i>
-        <h3>Sports</h3>
-        <p>We're the embodiment of dedication, passion, and the pursuit of excellence. Join our community of athletes, coaches, and fans as we live and breathe the thrill of competition, where every game is an opportunity to make history.</p>
-        <a href="sportevent.html" class="btn">Know More</a>
-      </div>
+    <div class="button_container">
+      <button class="invitation_btn" id="yesButton" onclick="showNextPage()">Yes</button>
+      <button class="invitation_btn" id="noButton" onmouseover="moveNoButton()" onclick="moveNoButton()">No</button>
     </div>
-  </section>
-
-
-  <!-- Team Section  -->
-  <section class="team" id="team">
-    <h2 class="heading" data-aos="fade-up">Our Team</h2>
-    <div class="team-content" data-aos="fade-right">
-      <div class="team-img">
-        <img src="images/team2.png" alt="team">
-      </div>
-
-      <div class="team-content" data-aos="fade-left">
-        <div>
-          <h3>CESA 2K23</h3>
-          <p style="font-size: 2rem;">Step into the world of CESA - Where Tech and Passion Unites! Discover our mission, meet the team, and be part of the innovation wave!</p>
-        </div>
-        <a href="Team.html" class="btn">Know More</a>
-      </div>
+    <video id="noVideo" width="0" height="0" controls>
+      <source src="image/SadMoment.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div id="response" class="container">
+    <div>
+      <h1 class="title_text">Yeeeyyyy!!</h1>
     </div>
-  </section>
-
-
-  <!-- ~~~~~~~ Testimonials-Section-Start ~~~~~~~~~~~~~ -->
-
-  <section class="testimonials" id="testimonials">
-    <h2 class="heading" data-aos="fade-up" data-aos-duration="800">Testimonials</h2>
-
-    <!-- Swiper -->
-    <div class="swiper mySwiper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide">
-          <div class="testimonial-card">
-            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
-          <div class="front">
-              <div>
-                <div class="st-quote">
-                  &#8220;
-                </div>
-                <div class="quote">
-                  Participating in the CESA chess competition allowed me to develop and hone various skills, both on and off the chessboard.
-                </div>
-                <div class="end-quote">
-                  &#8221;
-                </div>
-              </div>
-              <div class="author">
-                &#8211; Vedantraje Nimbalkar
-              </div>
-            </div>
-            <div class="back">
-              <img src="images/vedantraje.jpg" alt="">
-              <h2>Vedantraje Nimbalkar</h2>
-              <h2>Chess Runner-up</h2>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="swiper-slide">
-          <div class="testimonial-card">
-            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
-          <div class="front">
-              <div>
-                <div class="st-quote">
-                  &#8220;
-                </div>
-                <div class="quote">
-                  Last year, I was runner up for the kalakar katta event organized by CESA and it was really amazing one!!! Basically, the credit goes to all those who help me out in managing all the activities and participating in it.Thank you CESA and team!!!
-                </div>
-                <div class="end-quote">
-                  &#8221;
-                </div>
-              </div>
-              <div class="author">
-                &#8211; Sakshi Shirsathe
-              </div>
-            </div>
-            <div class="back">
-              <img src="images/sakshi_shirsathe.jpg" alt="">
-              <h2>Sakshi Shirsathe</h2>
-              <h2>Kalakar Katta Runner-up</h2>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="swiper-slide">
-          <div class="testimonial-card">
-            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
-          <div class="front">
-              <div>
-                <div class="st-quote">
-                  &#8220;
-                </div>
-                <div class="quote">
-                  I'm pleased to commend CESA for their amazing event management. Their flawless execution and dedication to sporting greatness astonished me. I'm looking forward to take part in CESA activities in the future. 
-                </div>
-                <div class="end-quote">
-                  &#8221;
-                </div>
-              </div>
-              <div class="author">
-                &#8211; Chirag Mohitkar
-              </div>
-            </div>
-            <div class="back">
-              <img src="images/Chirag.jpg" alt="">
-              <h2>Chirag Mohitkar</h2>
-              <h2>Table-tennis Runner-up</h2>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="swiper-slide">
-          <div class="testimonial-card">
-            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
-          <div class="front">
-              <div>
-                <div class="st-quote">
-                  &#8220;
-                </div>
-                <div class="quote">
-                  I'm thankful to CESA for conducting such amazing technical events where I can test my skills and win amazing prizes. Their efforts are appreciable! I'm eagerly waiting to explore more such opportunities and technologies initiated by CESA in the future.
-                </div>
-                <div class="end-quote">
-                  &#8221;
-                </div>
-              </div>
-              <div class="author">
-                &#8211; Saadgi Pandey
-              </div>
-            </div>
-            <div class="back">
-              <img src="images/saadgi.jpg" alt="">
-              <h2>Saadgi Pandey</h2>
-              <h2>Chess Winner</h2>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="swiper-slide">
-          <div class="testimonial-card">
-            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
-          <div class="front">
-              <div>
-                <div class="st-quote">
-                  &#8220;
-                </div>
-                <div class="quote">
-                  I wanted to express my heartfelt appreciation for all the hard work and dedication CESA team takes in conducting all the events. I'm thankful for being a part of CESA events and looking forward to be a part of many more!
-                </div>
-                <div class="end-quote">
-                  &#8221;
-                </div>
-              </div>
-              <div class="author">
-                &#8211; Rishika Kavade
-              </div>
-            </div>
-            <div class="back">
-              <img src="images/rishika.jpg" alt="">
-              <div>Rishika Kavade</div>
-              <div>Shor-in-the-City Winner</div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="swiper-slide">
-          <div class="testimonial-card">
-            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
-          <div class="front">
-              <div>
-                <div class="st-quote">
-                  &#8220;
-                </div>
-                <div class="quote">
-                  CESA offers a variety of events and resources that help students develop their skills, network with professionals, and prepare for careers in the field. I am grateful for the support that CESA has provided me throughout my college career. 
-                </div>
-                <div class="end-quote">
-                  &#8221;
-                </div>
-              </div>
-              <div class="author">
-                &#8211; Siddhant Sangale
-              </div>
-            </div>
-            <div class="back">
-              <img src="images/Sidd.jpg" alt="">
-              <h2>Siddhant Sangale</h2>
-              <h2>Chess Winner</h2>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-
+    <div class="gif_container">
+      <img src="image/ans.gif" alt="Cute animated illustration">
     </div>
-
-
-  </section>
-
-  <!-- ~~~~~~~ Testimonials-Section-End ~~~~~~~~~~~~~ -->
-
-
-
-  <!-- Footer Section -->
-
-  <footer class="footer" id="footer">
-
-    <div class="followus" data-aos="fade-right" data-aos-offset="100">
-      <h2 class="footer-heading">Follow Us</h2>
-      <div>
-        <div class="social-media-footer">
-<!--           <a href="#"><i class='bx bxl-facebook'></i></a> -->
-          <a href="https://instagram.com/ioitcesa?igshid=MzRlODBiNWFlZA==
-          " target="_blank"><i class='bx bxl-instagram'></i></a>
-          <a href="https://www.linkedin.com/in/cesa-ioit/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-          <a href="https://discord.gg/upkjS4Xq
-          " target="_blank"><i class='bx bxl-discord-alt'></i></a>
-          <a href="https://youtube.com/@ioitcesa2954?si=slFAfkUp5796LXX3" target="_blank"><i class='bx bxl-youtube'></i></a>
-        </div>
-        <!-- <div class="rights">
-          <br>
-          <p> @Right Reserved by Abhi, Aditya, Yadnesh</p>
-        </div> -->
-      </div>
-    </div>
-    <div class="contactus" data-aos="fade-left" data-aos-offset="100">
-      <h2 class="footer-heading">Contact Us</h2>
-      <div class="contactus-content">
-        <p><span>Address</span> : Kennedy Road, Near RTO, Pune - 411 001, Maharashtra, India</p>
-        <p><span>Email</span> : ioit.cesa_president@aissmsioit.org</p>
-      </div>
-    </div>
-  </footer>
-
-  </footer>
-  <!-- Script  -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 300,
-      duration: 750,
-    });
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script type="text/javascript" src="app.js"></script>
-
+    <video id="responseVideo" width="0" height="0" controls>
+      <source src="image/KidsCheering.mp4" type="video/mp4">
+    </video>
+  </div>
 </body>
+
+<script>
+  var debounce = function(fn, t = 1000) {
+    let timer;
+    return function(...args) {
+      clearTimeout(timer);
+      timer = setTimeout(() => fn(...args), t);
+    }
+  };
+
+  function playNoVideo() {
+    document.getElementById('noVideo').play();
+  }
+
+  function showNextPage() {
+    document.getElementById('response').style.display = 'block';
+    document.getElementById('dateInvitation').style.display = 'none';
+    document.getElementById('noVideo').pause();
+    document.getElementById('responseVideo').play();
+  }
+
+  function moveNoButton() {
+    var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+    var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+    document.getElementById('noButton').style.left = `${x}px`;
+    document.getElementById('noButton').style.top = `${y}px`;
+    playNoVideo();
+  }
+</script>
 
 </html>
